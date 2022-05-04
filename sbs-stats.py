@@ -1,3 +1,6 @@
+import scipy.stats as st
+import numpy as np
+
 #### Means comparisons
 def t_test_means(mean_a, mean_b, std_a, std_b, n_a, n_b):
     diff = mean_a - mean_b
